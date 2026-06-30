@@ -1,0 +1,45 @@
+=1=
+
+(google.com)
+
+A Record - 142.250.190.78
+TTL - 300
+nameservers: 
+ns3.google.com 
+ns4.google.com
+ns1.google.com
+ns2.google.com
+
+(kaspi.kz)
+
+A Record - 194.187.245.10
+TTL - 271
+nameservers: 
+ns.bc.kz
+ns.kaspi.kz
+ns2.bc.kz
+ns2.kaspi.kz
+
+(chess.com)
+
+A Record - 104.18.141.67
+TTL - 300
+nameservers: 
+dan.ns.cloudflare.com
+sue.ns.cloudflare.com
+
+=2=
+
+curl -I https://youtube.com
+HTTP/1.1 301
+curl -I https://httpbin.org/status/404
+HTTP/1.1 404 NOT FOUND
+Date: Tue, 30 Jun 2026 09:42:42 GMT
+
+=3=
+
+youtube.com
+base.js-200-script-loads the JavaScript that provides the website's functionality.
+styles.css-200-stylesheet-loads the CSS styles that define the page's appearance and layout.
+logo.svg-200-image-loads the SVG image of the website's logo.
+
